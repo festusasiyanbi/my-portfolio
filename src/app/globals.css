@@ -3,25 +3,67 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --bg-blue: #2B2B52;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: aliceblue;
+  background-color: #002244;
+}
+header, footer {
+  background: linear-gradient(30deg, #002D62, #BD4F6C);
+}
+section {
+  @apply py-20
+}
+.center-content {
+  @apply flex justify-center items-center
+}
+.end-content {
+  @apply flex items-end justify-end 
+}
+.curve-heading {
+  border-radius: 0 0 0 80px;
+  box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, .5);
+  @apply text-[17px] font-[600] bg-regular_brown h-[70px] w-[90%] mb-5 flex items-center justify-center
+}
+button {
+  background: linear-gradient(30deg, #002D62, #BD4F6C);
+  @apply py-3 px-7 my-2 rounded-[10px]
+}
+.g-transition {
+  transition: all 1.5s ease-in-out .1s;
+}
+.rounded-gradient-div {
+  background: linear-gradient(30deg, #002D62, #BD4F6C);
+}
+.about-image {
+  transform: rotate(15deg);
+  transition: all 1.5s ease-in-out .3s;
+}
+.about-image:hover {
+  transition: all 1.5s ease-in-out .3s;
+  transform: none;
+}
+
+.project-image {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: boxShadowAnimation 2s infinite alternate;
+}
+.contact input {
+  @apply h-[80px]
+}
+.contact textarea {
+  @apply h-[200px]
+}
+.contact input, .contact textarea {
+  transition: all 1s ease-in-out .1s;
+  @apply w-[400px] border-[1.5px] border-regular_brown bg-[#002D62] p-2 focus:text-black focus:bg-white outline-none
+}
+@keyframes boxShadowAnimation {
+  from {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  to {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  }
 }
