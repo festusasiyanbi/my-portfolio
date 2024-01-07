@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Projects = () => {
   return (
-    <section className='projects flex flex-col items-center justify-center w-full'>
+    <section id='projects' className='projects flex flex-col items-center justify-center w-full'>
         <h1 className='font-[700] text-[30px] pb-10'>Projects I have worked on </h1>
         <div className='flex w-full items-center justify-evenly flex-wrap'>
             {data.projects.map((project, index) => (

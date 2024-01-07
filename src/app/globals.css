@@ -5,6 +5,9 @@
 :root {
   --bg-blue: #2B2B52;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: aliceblue;
   background-color: #002244;

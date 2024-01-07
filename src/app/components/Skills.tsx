@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <section className='center-content w-full flex-col'>
+    <section id='skills' className='center-content w-full flex-col'>
         <h1 className='font-[700] text-[30px] pb-10'>Skills </h1>
         <div className='center-content w-full space-x-10'>
             <div className='w-[25%] h-[420px] pb-5 bg-[#041E42] flex flex-col items-start justify-between'>

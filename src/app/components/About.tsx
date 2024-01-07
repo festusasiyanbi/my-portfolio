@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <section className='about flex justify-center items-center space-x-20'>
+    <section id='about' className='about flex justify-center items-center space-x-20'>
         <div className='rounded-gradient-div flex justify-center items-center w-[350px] h-[440px] rounded-[20px]'>
             <div>
                 <Image

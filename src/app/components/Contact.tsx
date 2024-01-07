@@ -5,7 +5,7 @@ import { FaEnvelope, FaLinkedin, FaTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <section className='contact center-content w-full'>
+    <section id='contact' className='contact center-content w-full'>
         <div className='flex items-start justify-start space-x-20'>
             <div className='center-content flex-col space-y-7'>
                 <div><input type='text' placeholder='Full Name' /></div>
