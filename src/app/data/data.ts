@@ -4,7 +4,7 @@ export const data = {
     links: [
         {
             name: "about",
-            link_to: "#hero",
+            link_to: "#about",
         },
         {
             name: "projects",
@@ -34,7 +34,7 @@ export const data = {
     {
         title: "Ajaniti40",
         description: "Ajani's website for his 40th birthday celebration",
-        img: "/assets/whatsapp_web.png",
+        img: "/assets/ajaniti40.jpeg",
         link: "https://ajaniti40.com",
         github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
         technologies: "TypeScript, NextJS, & TailwindCSS",
@@ -42,7 +42,7 @@ export const data = {
     {
         title: "WhatsApp Webapp Clone",
         description: "A clone of the Webapp version of WhatsApp.",
-        img: "/assets/whatsapp_web.png",
+        img: "/assets/whatsapp_web.jpeg",
         link: "https://whatsapp-web-clone-dd630.web.app/",
         github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
         technologies: "React, Firebase, & TailwindCSS",
@@ -50,7 +50,7 @@ export const data = {
     {
         title: "WhatsApp Mobile app Clone",
         description: "A clone of the Mobile app version of WhatsApp.",
-        img: "/assets/whatsapp_web.png",
+        img: "/assets/whatsapp_web.jpeg",
         link: "https://whatsapp-web-clone-dd630.web.app/",
         github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
         technologies: "React Native, Firebase, & TailwindCSS",
@@ -163,7 +163,7 @@ export const data = {
         link: "https://linkedin.com/in/festusasiyanbi",
     },
     {
-        type: "twiiter",
+        type: "twitter",
         link: "https://twitter.com/festusasiyanbi",
     },
     {

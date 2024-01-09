@@ -11,12 +11,12 @@ const Projects = () => {
             {data.projects.map((project, index) => (
                 <div
                   key={index}
-                  className='project-image w-[350px] h-fit flex flex-col items-center justify-center rounded-[20px] p-2'
+                  className='project-image w-[350px] flex flex-col items-center justify-center rounded-[20px] p-2'
                 >
                     <Image
                       src={project.img}
-                      width={350}
-                      height={0}
+                      width={400}
+                      height={300}
                       alt=''
                       className='rounded-[20px]'
                     />
@@ -33,7 +33,6 @@ const Projects = () => {
                 </div>
             ))}
         </div>
-        
     </section>
   )
 }

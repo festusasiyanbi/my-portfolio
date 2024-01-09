@@ -1,10 +1,13 @@
+'use client'
 import React from 'react'
 import { data } from '../data/data';
 import Link from 'next/link';
 import { Montserrat } from 'next/font/google';
+
 const mont = Montserrat({ subsets: ["latin"] });
 
 const Header = () => {
+  
   return (
     <header className='w-full flex justify-between items-center h-[70px] font-[600] px-10'>
       <div className="flex lg:flex-1">
@@ -22,8 +25,7 @@ const Header = () => {
           <Link
             key={index}
             href={link.link_to}
-            className='capitalize'
-          >
+            className="capitalize">
             {link.name}
           </Link>
         ))}

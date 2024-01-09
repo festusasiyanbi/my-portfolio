@@ -12,7 +12,7 @@ body {
   color: aliceblue;
   background-color: #002244;
 }
-header, footer {
+header, footer, .gradient {
   background: linear-gradient(30deg, #002D62, #BD4F6C);
 }
 section {
@@ -47,11 +47,6 @@ button {
   transition: all 1.5s ease-in-out .3s;
   transform: none;
 }
-
-.project-image {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  animation: boxShadowAnimation 2s infinite alternate;
-}
 .contact input {
   @apply h-[80px]
 }
@@ -62,6 +57,14 @@ button {
   transition: all 1s ease-in-out .1s;
   @apply w-[400px] border-[1.5px] border-regular_brown bg-[#002D62] p-2 focus:text-black focus:bg-white outline-none
 }
+.active-nav {
+  @apply text-blue-600
+}
+.project-image {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: boxShadowAnimation 2s infinite alternate;
+}
+
 @keyframes boxShadowAnimation {
   from {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

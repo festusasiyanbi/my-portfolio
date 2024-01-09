@@ -33,12 +33,12 @@ const Footer = () => {
               ? <FaTwitter />
               : social.type === 'instagram'
               ? <FaInstagram />
-              : <FaGithub />  
+              : <FaGithub />
             }
           </Link>
         ))}
       </div>
-      <div className='text-[12px]'> Copyright &copy; {getFullYear}. All Rights Reserved </div>
+      <div className='text-[12px]'> Copyright &copy; {getFullYear}. All Rights Reserved | Gig Empower</div>
     </footer>
   )
 }
