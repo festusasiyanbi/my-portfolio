@@ -3,7 +3,7 @@ import React from 'react'
 import { FaBriefcase, FaCogs, FaEnvelope, FaInfo, FaLaptopCode } from 'react-icons/fa';
 import { data } from '../data/data';
 
-const Navigator = () => {
+const BottomNavigator = () => {
   return (
     <div className='fixed bottom-10 left-1/2 transform -translate-x-1/2 text-center'>
         <div className='gradient w-fit h-[60px] flex items-center justify-center space-x-5 border-slate-900 border-[1px] rounded-[20px] px-5'>
@@ -29,4 +29,4 @@ const Navigator = () => {
   )
 }
 
-export default Navigator;
+export default BottomNavigator;

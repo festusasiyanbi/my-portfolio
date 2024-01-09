@@ -8,7 +8,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
-import Navigator from './components/Navigator';
+import BottomNavigator from './components/BottomNavigator';
 import { useEffect, useState } from 'react';
 
 const mont = Montserrat({ subsets: ["latin"] });
@@ -37,7 +37,7 @@ export default function Home() {
       <Skills />
       {/* <Testimonials /> */}
       <Contact />
-      {showComponent && <Navigator />}
+      {showComponent && <BottomNavigator />}
       <Footer />
     </main>
   )
