@@ -17,10 +17,10 @@ const About = () => {
                 />
             </div>
         </div>
-        <div className='flex flex-col space-y-10 items-center justify-center'>
+        <div className='flex flex-col space-y-10 items-center justify-center w-[50%]'>
             <span className='text-[20px]'>Hi there 👋, I&apos;m</span>
             <span className='text-[40px] font-[600]'>{data.about.name[0]} {data.about.name[1]}</span>
-            <span>I&apos;m {data.about.profession}</span>
+            <span>{data.about.profession}</span>
             <div>
                 <span className='flex items-center justify-center space-x-10'>
                     <a
